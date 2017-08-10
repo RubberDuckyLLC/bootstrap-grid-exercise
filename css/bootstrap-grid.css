@@ -1,3 +1,18 @@
 .container {
     background-color: #d3d3d3;
 }
+
+.main-heading {
+    /*background-color: #fff;*/
+
+}
+
+.codeup-logo {
+    max-width: 105px;
+    max-height: 105px;
+
+}
+
+header {
+    background-color: #fff;
+}
