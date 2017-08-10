@@ -1,5 +1,15 @@
+.header-font {
+    font-family: 'Anton', sans-serif;
+}
+
+.p-font {
+    font-family: 'Abel', sans-serif;
+
+}
+
+
 .container, body {
-    background-color: #d3d3d3;
+    background-color: #f0f0f0;
 }
 
 .main-heading {
@@ -21,3 +31,4 @@
     width: auto;
     height: 80px;
 }
+
