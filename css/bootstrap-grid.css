@@ -120,16 +120,17 @@
     }
 
     .circle {
-        height: 105px;
-        width: 105px;
+        height: 130px;
+        width: 130px;
         border: 8px solid #fff;
         border-radius: 100%;
         text-align: center;
-        line-height: 95px;
+        line-height: 115px;
         color: #fff;
         font-family:'Anton', sans-serif;
+        font-size: large;
         float: left;
-        margin: auto;
+        margin: 0 5px;
 
     }
 
@@ -162,8 +163,35 @@
         line-height: 25px;
         display: inline-block;
 
+
+    }
+
+   .nav-links.link-left {
+       position: relative;
+       bottom: 225px;
+       right: 150px;
+       margin-left: 20px;
+
+   }
+
+   .nav-links.link-right {
+       position: relative;
+       bottom: 225px;
+       left: 150px;
+       margin-right: 20px;
+   }
+
+    .list-inline .nav-links {
+        color: #000;
+        font-size: x-large;
     }
 
 
+    .selected-work {
+        margin: 0 0 50px 185px;
+        padding-top: 15px;
+        border-top: 2px solid lightgrey;
+        width: 60%;
+    }
 
 }
