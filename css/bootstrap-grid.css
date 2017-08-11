@@ -11,21 +11,21 @@
     margin-bottom: 40px;
 }
 
-
 .container, body {
     background-color: #f0f0f0;
 }
 
 @media screen and (max-width: 400px) {
 
-    .codeup-logo {
+.codeup-logo {
     height: 150px;
     position: relative;
 
 
 
 }
-    .header-strip {
+
+.header-strip {
     box-sizing: border-box;
     background-color: #fff;
     width: auto;
@@ -33,38 +33,38 @@
     position: relative;
 }
 
+}
+
+.circle {
+    height: 105px;
+    width: 105px;
+    border: 8px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 95px;
+    color: #fff;
+    font-family:'Anton', sans-serif;
 
 
 }
-.content-circle-red {
-    height: 105px;
-    width: 105px;
+
+.circle-red {
     background-color: #e6563b;
-    border: 8px solid #fff;
-    border-radius: 100%;
+
 }
 
-.content-circle-yellow {
-    height: 105px;
-    width: 105px;
+.circle-yellow {
     background-color: #E69D2E;
-    border: 8px solid #fff;
-    border-radius: 100%;
+
 }
 
-.content-circle-green {
-    height: 105px;
-    width: 105px;
+.circle-green {
     background-color: #7cb06c;
-    border: 8px solid #fff;
-    border-radius: 100%;
+
 }
 
-.content-circle-blue {
-    height: 105px;
-    width: 105px;
+.circle-blue {
     background-color: #00aba9;
-    border: 8px solid #fff;
-    border-radius: 100%;
+
 }
 
