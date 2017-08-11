@@ -42,12 +42,11 @@
     line-height: 95px;
     color: #fff;
     font-family:'Anton', sans-serif;
+    margin-left: 15px;
 
 }
 
-div.circle {
-    margin-right: 0;
-}
+
 
 .circle-small {
     border: 1px transparent;
@@ -101,6 +100,10 @@ div.circle {
 
 
 @media screen and (min-width: 768px) {
+    .small-title {
+        font-size: 6vw;
+    }
+
     .codeup-logo {
         height: 150px;
         position: relative;
