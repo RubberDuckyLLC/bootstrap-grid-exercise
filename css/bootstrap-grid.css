@@ -15,7 +15,7 @@
     background-color: #f0f0f0;
 }
 
-@media screen and (min-width: 350px) and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
 .codeup-logo {
     height: 150px;
@@ -43,7 +43,10 @@
     color: #fff;
     font-family:'Anton', sans-serif;
 
+}
 
+div.circle {
+    margin-right: 0;
 }
 
 .circle-small {
@@ -93,7 +96,55 @@
 }
 
 
-@media screen and (min-width: 601px) and (max-width: 992px) {
+@media screen and (min-width: 768px) {
+    .codeup-logo {
+        height: 150px;
+        position: relative;
+        bottom: 35px;
+
+    }
+
+    .header-strip {
+        box-sizing: border-box;
+        background-color: #fff;
+        width: auto;
+        height: 80px;
+        position: relative;
+    }
+
+    .circle {
+        height: 105px;
+        width: 105px;
+        border: 8px solid #fff;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 95px;
+        color: #fff;
+        font-family:'Anton', sans-serif;
+        float: left;
+        margin: auto;
+
+    }
+
+    .circle-red {
+        background-color: #e6563b;
+
+    }
+
+    .circle-yellow {
+        background-color: #E69D2E;
+
+    }
+
+    .circle-green {
+        background-color: #7cb06c;
+
+    }
+
+    .circle-blue {
+        background-color: #00aba9;
+
+    }
 
 
 
