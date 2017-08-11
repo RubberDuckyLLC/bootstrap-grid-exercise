@@ -194,4 +194,56 @@
         width: 60%;
     }
 
+    .apples {
+        border: 8px solid #e6e6e6;
+        border-radius: 5%;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .jumbotron {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    .codeup-logo {
+        height: 150px;
+        position: relative;
+        bottom: 35px;
+        left: 55px;
+        float: left;
+
+    }
+
+    .header-strip {
+        box-sizing: border-box;
+        background-color: #fff;
+        width: auto;
+        height: 80px;
+        position: relative;
+    }
+
+    .nav-links.link-left {
+        position: relative;
+        bottom: 200px;
+        left: 280px;
+        margin-left: 20px;
+
+    }
+
+    .nav-links.link-right {
+        position: relative;
+        bottom: 200px;
+        left: 305px;
+        margin-right: 20px;
+    }
+
+    h1.codeup-header {
+        position: relative;
+        bottom: 155px;
+        right: 170px;
+        font-size: 40px;
+    }
+
 }
